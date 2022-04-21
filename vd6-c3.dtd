@@ -1,0 +1,9 @@
+<!ELEMENT document (Order, Catalog)*>
+<!ELEMENT Order (OrderDate, Customer, ProductID, Quantity,ProductID, Quantity)>
+<!ELEMENT Catalog (CategoryName, ProductID, ProductName)>
+<!ELEMENT OrderDate (#PCDATA)>
+<!ELEMENT Customer (#PCDATA)>
+<!ELEMENT ProductID (#PCDATA) >
+<!ELEMENT Quantity (#PCDATA) >
+<!ELEMENT CategoryName (#PCDATA) >
+<!ELEMENT ProductName (#PCDATA) >

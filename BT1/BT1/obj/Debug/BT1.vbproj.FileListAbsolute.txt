@@ -1,0 +1,9 @@
+D:\XML\BT1\BT1\bin\Debug\BT1.exe.config
+D:\XML\BT1\BT1\bin\Debug\BT1.exe
+D:\XML\BT1\BT1\bin\Debug\BT1.pdb
+D:\XML\BT1\BT1\bin\Debug\BT1.xml
+D:\XML\BT1\BT1\obj\Debug\BT1.Resources.resources
+D:\XML\BT1\BT1\obj\Debug\BT1.vbproj.GenerateResource.Cache
+D:\XML\BT1\BT1\obj\Debug\BT1.exe
+D:\XML\BT1\BT1\obj\Debug\BT1.xml
+D:\XML\BT1\BT1\obj\Debug\BT1.pdb

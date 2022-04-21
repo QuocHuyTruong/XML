@@ -1,0 +1,6 @@
+<!ELEMENT DatHang (NgayDat, KhachHang, SanPham*)*>
+<!ELEMENT SanPham (MaSo, SoLuong)>
+<!ELEMENT MaSo (#PCDATA)>
+<!ELEMENT SoLuong (#PCDATA)>
+<!ELEMENT NgayDat (#PCDATA)>
+<!ELEMENT KhachHang (#PCDATA)>

@@ -1,0 +1,4 @@
+<!ELEMENT QLDH (khachhang)*>
+<!ELEMENT khachhang (hokh,tenkh)>
+<!ELEMENT hokh (#PCDATA) >
+<!ELEMENT tenkh (#PCDATA) >

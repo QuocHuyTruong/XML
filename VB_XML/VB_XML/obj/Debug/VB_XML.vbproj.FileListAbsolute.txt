@@ -1,0 +1,9 @@
+D:\XML\VB_XML\VB_XML\bin\Debug\VB_XML.exe.config
+D:\XML\VB_XML\VB_XML\bin\Debug\VB_XML.exe
+D:\XML\VB_XML\VB_XML\bin\Debug\VB_XML.pdb
+D:\XML\VB_XML\VB_XML\bin\Debug\VB_XML.xml
+D:\XML\VB_XML\VB_XML\obj\Debug\VB_XML.Resources.resources
+D:\XML\VB_XML\VB_XML\obj\Debug\VB_XML.vbproj.GenerateResource.Cache
+D:\XML\VB_XML\VB_XML\obj\Debug\VB_XML.exe
+D:\XML\VB_XML\VB_XML\obj\Debug\VB_XML.xml
+D:\XML\VB_XML\VB_XML\obj\Debug\VB_XML.pdb

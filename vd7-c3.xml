@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE DatHang SYSTEM "file:/D:/XML/vd7-c3.dtd">
+<DatHang>
+    <NgayDat>27-2-2003</NgayDat>
+    <KhachHang>tran thanh nhan</KhachHang>
+    <SanPham>
+        <MaSo>5</MaSo>
+        <SoLuong>7</SoLuong>
+    </SanPham>
+    <SanPham>
+        <MaSo>1</MaSo>
+        <SoLuong>9</SoLuong>
+    </SanPham>
+</DatHang>

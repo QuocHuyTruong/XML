@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <xs:element name="QLLH">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="HocVien" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="MaHV">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="[A-Z][A-Z][0-9]{5}"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="HoHV" type="xs:string"/>
+                            <xs:element name="TenHV" type="xs:string"/>
+                            <xs:element name="NgaySinh" type="xs:date"/>
+                            <xs:element name="DiaChi" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="KhoaHoc" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="MaKH">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="[0-9][0-9]"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="TenKH" type="xs:string"/>
+                            <xs:element name="NgayBD" type="xs:date"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="GiaoVien" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="MaGV">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="[A-Z][A-Z][0-9][0-9][0-9]"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="HoTenGV" type="xs:string"/>
+                            <xs:element name="DiaChiGV" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="LopHoc" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="MaLH" type="xs:string"/>
+                            <xs:element name="MaKH">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="[0-9][0-9]"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="MaGV">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="[A-Z][A-Z][0-9][0-9][0-9]"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="HocPhi" type="xs:decimal"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="BienLai" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="SoBL">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="[A-z][0-9][0-9][0-9]"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="MaLH" type="xs:string"/>
+                            <xs:element name="MaHV">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="[A-Z][A-Z][0-9]{5}"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="NgayNop" type="xs:date"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:key name="HVKey">
+            <xs:selector xpath="HocVien"/>
+            <xs:field xpath="MaHV"/>
+        </xs:key>
+        <xs:key name="KHKey">
+            <xs:selector xpath="KhoaHoc"/>
+            <xs:field xpath="MaKH"/>
+        </xs:key>
+        <xs:key name="GVKey">
+            <xs:selector xpath="GiaoVien"/>
+            <xs:field xpath="MaGV"/>
+        </xs:key>
+        <xs:key name="LHKey">
+            <xs:selector xpath="LopHoc"/>
+            <xs:field xpath="MaLH"/>
+        </xs:key>
+        <xs:key name="BLKey">
+            <xs:selector xpath="BienLai"/>
+            <xs:field xpath="SoBL"/>
+        </xs:key>
+        <xs:keyref name="BL_HVKeyref" refer="HVKey">
+            <xs:selector xpath="BienLai"/>
+            <xs:field xpath="MaHV"/>
+        </xs:keyref>
+        <xs:keyref name="LH_KHKeyref" refer="KHKey">
+            <xs:selector xpath="LopHoc"/>
+            <xs:field xpath="MaKH"/>
+        </xs:keyref>
+        <xs:keyref name="LH_GVKeyref" refer="GVKey">
+            <xs:selector xpath="LopHoc"/>
+            <xs:field xpath="MaGV"/>
+        </xs:keyref>
+        <xs:keyref name="BL_LHKeyref" refer="LHKey">
+            <xs:selector xpath="BienLai"/>
+            <xs:field xpath="MaLH"/>
+        </xs:keyref>
+    </xs:element>
+</xs:schema>

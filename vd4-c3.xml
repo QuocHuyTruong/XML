@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE OrderDetail SYSTEM "file:/D:/XML/vd4-c3.dtd">
+<?xml-stylesheet type="text/css" href="cd_catalog.css"?>
+<OrderDetail>
+    <OrderDate>2006-6-6</OrderDate>
+    <Customer>anhphi</Customer>
+    <Item1>
+        <ProductID>3</ProductID>
+        <Quantity>3</Quantity>
+    </Item1>
+    <Item2>
+        <ProductID>1</ProductID>
+        <Quantity>5</Quantity>
+    </Item2>
+</OrderDetail>

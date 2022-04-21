@@ -1,0 +1,27 @@
+
+
+QLLH{
+    display:table;
+    margin:auto;
+}
+QLLH:before{
+    display:table-caption;
+    content:"Truong Quoc Huy";
+    color:green;
+    text-align:center;
+    font-size:20px;
+}
+ 
+HocVien,KhoaHoc,GiaoVien,BienLai{
+    display:none;
+}
+
+LopHoc{
+    display:table-row;
+    border:1px solid;
+}
+MaLH,MaKH,MaGV,HocPhi{
+    display:table-cell;
+    width:100px;
+    border:1px solid;
+}

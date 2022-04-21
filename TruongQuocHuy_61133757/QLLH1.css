@@ -1,0 +1,46 @@
+QLLH{
+    background-color: #eee;
+    width: 100%;
+}
+HocVien,
+KhoaHoc,
+GiaoVien,
+LopHoc,
+BienLai{
+    display: block;
+    margin-bottom: 30px;
+}
+MaHV,
+MaKH,
+MaGV,
+MaLH,
+SoBL{
+    display: block;
+    color: red;
+    font-size: 30px
+}
+HoHV,
+TenKH,
+HoTenGV{
+    display: block;
+    color: purple;
+    font-size: 25px;
+}
+TenHV,
+NgayBD,
+DiaChiGV{
+    display: block;
+    color: green;
+    font-size: 20px;
+}
+NgaySinh,
+HocPhi{
+    display: block;
+    color: blue;
+    font-size: 15px;
+}
+DiaChi,
+NgayNop{
+    color: aqua;
+    font-size: 10px;
+}

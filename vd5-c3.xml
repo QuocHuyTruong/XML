@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Customer SYSTEM "file:/D:/XML/vd5-c3.dtd">
+<Customer>
+    <FirstName>Bruce</FirstName>
+    <MiddleIntial></MiddleIntial>
+    <LastName>Lee</LastName>
+    <FirstName>Long</FirstName>
+    <MiddleIntial>Tieu</MiddleIntial>
+    <LastName>Ly</LastName>
+</Customer>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="QLLH2.css"?>
+<!DOCTYPE QLLH SYSTEM "QLLH.dtd">
+<QLLH>
+    <HocVien>
+        <MaHV>HV0001</MaHV>
+        <HoHV>Nguyễn Hữu</HoHV>
+        <TenHV>Liêm</TenHV>
+        <NgaySinh>2006-05-04</NgaySinh>
+        <DiaChi>Nguyễn Trãi</DiaChi>
+    </HocVien>
+    <HocVien>
+        <MaHV>HV0002</MaHV>
+        <HoHV>Lê Đại</HoHV>
+        <TenHV>Nam</TenHV>
+        <NgaySinh>2006-05-05</NgaySinh>
+        <DiaChi>Vân Đồn</DiaChi>
+    </HocVien>
+    <HocVien>
+        <MaHV>HV0003</MaHV>
+        <HoHV>Trương Quốc</HoHV>
+        <TenHV>Huy</TenHV>
+        <NgaySinh>2006-05-06</NgaySinh>
+        <DiaChi>Lê Đại Hành</DiaChi>
+    </HocVien>
+    <HocVien>
+        <MaHV>HV0004</MaHV>
+        <HoHV>Hàng Minh</HoHV>
+        <TenHV>Sơn</TenHV>
+        <NgaySinh>2006-05-07</NgaySinh>
+        <DiaChi>Nguyễn Đình Chiểu</DiaChi>
+    </HocVien>
+    <HocVien>
+        <MaHV>HV0005</MaHV>
+        <HoHV>Nguyễn Thành</HoHV>
+        <TenHV>Đạt</TenHV>
+        <NgaySinh>2006-05-08</NgaySinh>
+        <DiaChi>Đoàn Trần Nghiệp</DiaChi>
+    </HocVien>
+    <KhoaHoc>
+        <MaKH>00</MaKH>
+        <TenKH>Toán</TenKH>
+        <NgayBD>2006-05-04</NgayBD>
+    </KhoaHoc>
+    <KhoaHoc>
+        <MaKH>01</MaKH>
+        <TenKH>Anh</TenKH>
+        <NgayBD>2006-05-04</NgayBD>
+    </KhoaHoc>
+    <KhoaHoc>
+        <MaKH>02</MaKH>
+        <TenKH>Văn</TenKH>
+        <NgayBD>2006-05-04</NgayBD>
+    </KhoaHoc>
+    <KhoaHoc>
+        <MaKH>03</MaKH>
+        <TenKH>Tin</TenKH>
+        <NgayBD>2006-05-04</NgayBD>
+    </KhoaHoc>
+    <KhoaHoc>
+        <MaKH>04</MaKH>
+        <TenKH>Hóa</TenKH>
+        <NgayBD>2006-05-04</NgayBD>
+    </KhoaHoc>
+    <GiaoVien>
+        <MaGV>GV00</MaGV>
+        <HoTenGV>Mai Thi Trang</HoTenGV>
+        <DiaChiGV>Gò Vấp</DiaChiGV>
+    </GiaoVien>
+    <GiaoVien>
+        <MaGV>GV01</MaGV>
+        <HoTenGV>Lê Thị Mây</HoTenGV>
+        <DiaChiGV>Sóc Trăng</DiaChiGV>
+    </GiaoVien>
+    <GiaoVien>
+        <MaGV>GV02</MaGV>
+        <HoTenGV>Nguyễn Văn An</HoTenGV>
+        <DiaChiGV>Nha Trang</DiaChiGV>
+    </GiaoVien>
+    <GiaoVien>
+        <MaGV>GV03</MaGV>
+        <HoTenGV>Lê Minh Đạt</HoTenGV>
+        <DiaChiGV>Diên Khánh</DiaChiGV>
+    </GiaoVien>
+    <GiaoVien>
+        <MaGV>GV04</MaGV>
+        <HoTenGV>Hoàng Minh Sơn</HoTenGV>
+        <DiaChiGV>Ninh Hòa</DiaChiGV>
+    </GiaoVien>
+    <LopHoc>
+        <MaLH>Toan</MaLH>
+        <MaKH>00</MaKH>
+        <MaGV>GV00</MaGV>
+        <HocPhi>450000</HocPhi>
+    </LopHoc>
+    <LopHoc>
+        <MaLH>Van</MaLH>
+        <MaKH>01</MaKH>
+        <MaGV>GV01</MaGV>
+        <HocPhi>500000</HocPhi>
+    </LopHoc>
+    <LopHoc>
+        <MaLH>Anh</MaLH>
+        <MaKH>02</MaKH>
+        <MaGV>GV02</MaGV>
+        <HocPhi>500000</HocPhi>
+    </LopHoc>
+    <LopHoc>
+        <MaLH>Tin</MaLH>
+        <MaKH>03</MaKH>
+        <MaGV>GV03</MaGV>
+        <HocPhi>400000</HocPhi>
+    </LopHoc>
+    <LopHoc>
+        <MaLH>Hoa</MaLH>
+        <MaKH>04</MaKH>
+        <MaGV>GV04</MaGV>
+        <HocPhi>450000</HocPhi>
+    </LopHoc>
+    <BienLai>
+        <SoBL>B0000</SoBL>
+        <MaLH>Toan</MaLH>
+        <MaHV>HV0001</MaHV>
+        <NgayNop>2006-05-01</NgayNop>
+    </BienLai>
+    <BienLai>
+        <SoBL>B0001</SoBL>
+        <MaLH>Anh</MaLH>
+        <MaHV>HV0002</MaHV>
+        <NgayNop>2006-05-04</NgayNop>
+    </BienLai>
+    <BienLai>
+        <SoBL>B0002</SoBL>
+        <MaLH>Van</MaLH>
+        <MaHV>HV0003</MaHV>
+        <NgayNop>2006-05-12</NgayNop>
+    </BienLai>
+    <BienLai>
+        <SoBL>B0003</SoBL>
+        <MaLH>Tin</MaLH>
+        <MaHV>HV0004</MaHV>
+        <NgayNop>2006-05-15</NgayNop>
+    </BienLai>
+    <BienLai>
+        <SoBL>B0004</SoBL>
+        <MaLH>Hoa</MaLH>
+        <MaHV>HV0005</MaHV>
+        <NgayNop>2006-05-20</NgayNop>
+    </BienLai>
+</QLLH>

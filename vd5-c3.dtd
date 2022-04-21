@@ -1,0 +1,4 @@
+<!ELEMENT Customer (FirstName, MiddleIntial, LastName)*>
+<!ELEMENT FirstName (#PCDATA)>
+<!ELEMENT MiddleIntial (#PCDATA)>
+<!ELEMENT LastName (#PCDATA)>

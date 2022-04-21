@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT QuanLyBanSach (QLBS)* >
+<!ELEMENT QLBS (NhaXuatBan,Sach,NhanVien,HoaDon,CTHD) >
+<!ELEMENT NhaXuatBan (MaNXB,TenNXB)>
+    <!ELEMENT MaNXB (#PCDATA) >
+    <!ELEMENT TenNXB (#PCDATA) >
+<!ELEMENT Sach (MaSach*,TenSach,NamXB,GiaBan,MaNhaXB) >
+    <!ELEMENT MaSach (#PCDATA) >
+    <!ELEMENT TenSach (#PCDATA) >
+    <!ELEMENT NamXB (#PCDATA) >
+    <!ELEMENT GiaBan (#PCDATA) >
+    <!ELEMENT MaNhaXB (#PCDATA) >
+<!ELEMENT NhanVien (MaNV,TenNV,DiaChi,SoDT) >
+    <!ELEMENT MaNV (#PCDATA) >
+    <!ELEMENT TenNV (#PCDATA) >
+    <!ELEMENT DiaChi (#PCDATA) >
+    <!ELEMENT SoDT (#PCDATA) >
+<!ELEMENT HoaDon (SoHD,NgayBan,MaNV) >
+    <!ELEMENT SoHD (#PCDATA) >
+    <!ELEMENT NgayBan (#PCDATA) >
+    <!ELEMENT hd:MaNV (#PCDATA) >
+<!ELEMENT CTHD (SoHD,MaSach,SoLuong,Gia) >
+    <!ELEMENT ct:SoHD (#PCDATA) >
+    <!ELEMENT ct:MaSach (#PCDATA) >
+    <!ELEMENT SoLuong (#PCDATA) >
+    <!ELEMENT Gia (#PCDATA) >  
+<!ATTLIST NhaXuatBan MaNXB ID #REQUIRED >
+<!ATTLIST Sach MaSach ID #REQUIRED >
+<!ATTLIST NhanVien MaNV ID #REQUIRED >
+<!ATTLIST HoaDon SoHD ID #REQUIRED >
+<!ATTLIST HoaDon MaNV IDREF #IMPLIED >
+<!ATTLIST CTHD SoHD IDREF #IMPLIED >
+<!ATTLIST CTHD MaSach IDREF #IMPLIED >

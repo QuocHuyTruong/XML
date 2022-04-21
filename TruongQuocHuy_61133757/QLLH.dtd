@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT QLLH (HocVien*, KhoaHoc*, GiaoVien*,LopHoc*,BienLai*)*>
+<!ELEMENT HocVien (MaHV, HoHV,TenHV,NgaySinh,DiaChi)>
+<!ELEMENT KhoaHoc (MaKH, TenKH,NgayBD)>
+<!ELEMENT GiaoVien (MaGV, HoTenGV,DiaChiGV)>
+<!ELEMENT LopHoc (MaLH, MaKH,MaGV,HocPhi)>
+<!ELEMENT BienLai (SoBL, MaLH,MaHV,NgayNop)>
+<!ELEMENT MaHV (#PCDATA)>
+<!ELEMENT HoHV (#PCDATA)>
+<!ELEMENT TenHV (#PCDATA)>
+<!ELEMENT NgaySinh (#PCDATA)>
+<!ELEMENT DiaChi (#PCDATA)>
+<!ELEMENT MaKH (#PCDATA)>
+<!ELEMENT TenKH (#PCDATA)>
+<!ELEMENT NgayBD (#PCDATA)>
+<!ELEMENT MaGV (#PCDATA)>
+<!ELEMENT HoTenGV (#PCDATA)>
+<!ELEMENT DiaChiGV (#PCDATA)>
+<!ELEMENT MaLH (#PCDATA)>
+<!ELEMENT NgayNop (#PCDATA)>
+<!ELEMENT HocPhi (#PCDATA)>
+<!ELEMENT SoBL (#PCDATA)>

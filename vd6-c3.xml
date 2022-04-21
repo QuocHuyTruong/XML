@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "file:/D:/XML/vd6-c3.dtd">
+<document>
+    <Order>
+        <OrderDate>2006-6-6</OrderDate>
+        <Customer>anhphi</Customer>
+        <ProductID>2</ProductID>
+        <Quantity>2</Quantity>
+        <ProductID>4</ProductID>
+        <Quantity>3</Quantity>
+    </Order>
+    <Catalog>
+        <CategoryName>anhphi</CategoryName>
+        <ProductID>1</ProductID>
+        <ProductName>cocacola</ProductName>
+    </Catalog>
+</document>
