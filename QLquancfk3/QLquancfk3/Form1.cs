@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using QLquancfk3.DTO;
 using QLquancfk3.BLL;
-using System.Xml;
 
 namespace QLquancfk3
 {
@@ -197,7 +196,23 @@ namespace QLquancfk3
 
         private void button13_Click(object sender, EventArgs e)
         {
-
+            if (textBoxmatu.Text.Trim() != "")
+            {
+                thucuongdto.MaTU = textBoxmatu.Text;
+                thucuongdto.MaLoai = comboBoxmaloai.Text;
+                thucuongdto.TenTU = textBoxtentu.Text;
+                if (textBoxgia.Text.Trim() == "")
+                {
+                    thucuongdto.Gia = -1;
+                }
+                else
+                {
+                    thucuongdto.Gia = int.Parse(textBoxgia.Text);
+                }
+                thucuongdto.DonViTinh = textBoxdonvitinh.Text;
+                thucuongbll.Sua(thucuongdto);
+                thucuongbll.HienThi(dataGridViewThucUong);
+            }
         }
 
         private void button14_Click(object sender, EventArgs e)

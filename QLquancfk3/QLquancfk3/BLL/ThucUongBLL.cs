@@ -56,7 +56,7 @@ namespace QLquancfk3.BLL
             {
                 XmlNode thucuongmoi = doc.CreateElement("ThucUong");
 
-                XmlElement matu = doc.CreateElement("MaTu");
+                XmlElement matu = doc.CreateElement("MaTU");
                 matu.InnerText = ThucUongSua.MaTU;
                 thucuongmoi.AppendChild(matu);
 
@@ -108,6 +108,7 @@ namespace QLquancfk3.BLL
                 {
                     donvitinh.InnerText = ThucUongSua.DonViTinh;
                 }
+                thucuongmoi.AppendChild(donvitinh);
 
                 root.ReplaceChild(thucuongmoi, thucuongcu);
                 doc.Save(fileName);
@@ -144,7 +145,7 @@ namespace QLquancfk3.BLL
             }
         }
 
-        public void TimKiem(ThucUongDTO ThucUongTim,DataGridView dgv)
+        public void TimKiem(ThucUongDTO ThucUongTim, DataGridView dgv)
         {
             dgv.Rows.Clear();
             XmlNode thucuongtim = root.SelectSingleNode("ThucUong[MaTU ='" + ThucUongTim.MaTU + "']");
