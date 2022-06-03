@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="QLNH.xsl"?>
+<QLNH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="QLNH.xsd">
+    <NhanVien>
+        <MaNV>NV01</MaNV>
+        <HoLot>Tran</HoLot>
+        <Ten>Loi</Ten>
+        <GioiTinh>Nam</GioiTinh>
+    </NhanVien>
+    <NhanVien>
+        <MaNV>NV02</MaNV>
+        <HoLot>Nguyen</HoLot>
+        <Ten>An</Ten>
+        <GioiTinh>Nam</GioiTinh>
+    </NhanVien>
+    <NhanVien>
+        <MaNV>NV03</MaNV>
+        <HoLot>Le</HoLot>
+        <Ten>Hieu</Ten>
+        <GioiTinh>Nam</GioiTinh>
+    </NhanVien>
+    <NhanVien>
+        <MaNV>NV04</MaNV>
+        <HoLot>Tran</HoLot>
+        <Ten>Quynh</Ten>
+        <GioiTinh>Nu</GioiTinh>
+    </NhanVien>
+    <NhanVien>
+        <MaNV>NV05</MaNV>
+        <HoLot>Phan</HoLot>
+        <Ten>Trang</Ten>
+        <GioiTinh>Nu</GioiTinh>
+    </NhanVien>
+    
+    <HangHoa>
+        <MaHH>H001</MaHH>
+        <TenHH>Laptop</TenHH>
+        <DonViTinh>Cai</DonViTinh>
+        <TenNCC>Dell</TenNCC>
+    </HangHoa>
+    <HangHoa>
+        <MaHH>H002</MaHH>
+        <TenHH>But chi</TenHH>
+        <DonViTinh>Chiec</DonViTinh>
+        <TenNCC>Thien Long</TenNCC>
+    </HangHoa>
+    <HangHoa>
+        <MaHH>H003</MaHH>
+        <TenHH>Cam</TenHH>
+        <DonViTinh>Thung</DonViTinh>
+        <TenNCC>Thu Ha</TenNCC>
+    </HangHoa>
+    <HangHoa>
+        <MaHH>H004</MaHH>
+        <TenHH>Tao</TenHH>
+        <DonViTinh>Kg</DonViTinh>
+        <TenNCC>Phuong Nam</TenNCC>
+    </HangHoa>
+    <HangHoa>
+        <MaHH>H005</MaHH>
+        <TenHH>Xe may</TenHH>
+        <DonViTinh>Chiec</DonViTinh>
+        <TenNCC>Yamaha</TenNCC>
+    </HangHoa>
+    
+    <HoaDonNhap>
+        <SoHD>HD0001</SoHD>
+        <NgayNhap>01/01/2020</NgayNhap>
+        <MaNV>NV01</MaNV>
+    </HoaDonNhap>
+    <HoaDonNhap>
+        <SoHD>HD0002</SoHD>
+        <NgayNhap>02/01/2020</NgayNhap>
+        <MaNV>NV02</MaNV>
+    </HoaDonNhap>
+    <HoaDonNhap>
+        <SoHD>HD0003</SoHD>
+        <NgayNhap>03/01/2021</NgayNhap>
+        <MaNV>NV03</MaNV>
+    </HoaDonNhap>
+    <HoaDonNhap>
+        <SoHD>HD0004</SoHD>
+        <NgayNhap>04/01/2021</NgayNhap>
+        <MaNV>NV04</MaNV>
+    </HoaDonNhap>
+    <HoaDonNhap>
+        <SoHD>HD0005</SoHD>
+        <NgayNhap>05/01/2021</NgayNhap>
+        <MaNV>NV05</MaNV>
+    </HoaDonNhap>
+    
+    <ChiTietNhap>
+        <SoHD>HD0001</SoHD>
+        <MaHH>H001</MaHH>
+        <SoLuong>10</SoLuong>
+        <DonGiaNhap>1000000</DonGiaNhap>
+    </ChiTietNhap>
+    <ChiTietNhap>
+        <SoHD>HD0002</SoHD>
+        <MaHH>H002</MaHH>
+        <SoLuong>20</SoLuong>
+        <DonGiaNhap>2000</DonGiaNhap>
+    </ChiTietNhap>
+    <ChiTietNhap>
+        <SoHD>HD0003</SoHD>
+        <MaHH>H003</MaHH>
+        <SoLuong>30</SoLuong>
+        <DonGiaNhap>50000</DonGiaNhap>
+    </ChiTietNhap>
+    <ChiTietNhap>
+        <SoHD>HD0004</SoHD>
+        <MaHH>H004</MaHH>
+        <SoLuong>40</SoLuong>
+        <DonGiaNhap>40000</DonGiaNhap>
+    </ChiTietNhap>
+    <ChiTietNhap>
+        <SoHD>HD0005</SoHD>
+        <MaHH>H005</MaHH>
+        <SoLuong>50</SoLuong>
+        <DonGiaNhap>40000000</DonGiaNhap>
+    </ChiTietNhap>
+</QLNH>

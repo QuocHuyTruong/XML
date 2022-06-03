@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QLQuancafe3k xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="QLquancafe3k.xsd">
+    <ChucVu>
+        <MaCV>CV01</MaCV>
+        <TenCV>Quản Lý</TenCV>
+        <SoLuong>1</SoLuong>
+    </ChucVu>
+    <ChucVu>
+        <MaCV>CV02</MaCV>
+        <TenCV>Thu Ngân</TenCV>
+        <SoLuong>2</SoLuong>
+    </ChucVu>
+    <ChucVu>
+        <MaCV>CV03</MaCV>
+        <TenCV>Phục Vụ</TenCV>
+        <SoLuong>4</SoLuong>
+    </ChucVu>
+    <ChucVu>
+        <MaCV>CV04</MaCV>
+        <TenCV>Bảo vệ</TenCV>
+        <SoLuong>1</SoLuong>
+    </ChucVu>
+    <ChucVu>
+        <MaCV>CV05</MaCV>
+        <TenCV>Pha chế</TenCV>
+        <SoLuong>2</SoLuong>
+    </ChucVu>
+    <NhanVien>
+        <MaNV>NV01</MaNV>
+        <MaCV>CV01</MaCV>
+        <TenNV>Anh Phi</TenNV>
+        <NgaySinh>26/09/2001</NgaySinh>
+        <GioiTinh>Nam</GioiTinh>
+        <NgayVao>16/01/2022</NgayVao>
+        <DiaChi>Khánh Hòa</DiaChi>
+        <SDT>1296610092</SDT>
+    </NhanVien>
+    <NhanVien>
+        <MaNV>NV02</MaNV>
+        <MaCV>CV02</MaCV>
+        <TenNV>Thanh Ngọc</TenNV>
+        <NgaySinh>12/08/2001</NgaySinh>
+        <GioiTinh>Nữ</GioiTinh>
+        <NgayVao>24/01/2022</NgayVao>
+        <DiaChi>Khánh Hòa</DiaChi>
+        <SDT>1296612358</SDT>
+    </NhanVien>
+    <NhanVien>
+        <MaNV>NV03</MaNV>
+        <MaCV>CV03</MaCV>
+        <TenNV>Nguyễn Thiên Tú</TenNV>
+        <NgaySinh>08/01/2001</NgaySinh>
+        <GioiTinh>Nam</GioiTinh>
+        <NgayVao>24/02/2022</NgayVao>
+        <DiaChi>Phú Yên</DiaChi>
+        <SDT>1227832336</SDT>
+    </NhanVien>
+    <NhanVien>
+        <MaNV>NV04</MaNV>
+        <MaCV>CV03</MaCV>
+        <TenNV>Ngọc Yến</TenNV>
+        <NgaySinh>08/01/2001</NgaySinh>
+        <GioiTinh>Nữ</GioiTinh>
+        <NgayVao>08/03/2022</NgayVao>
+        <DiaChi>Ninh Hòa</DiaChi>
+        <SDT>1227005628</SDT>
+    </NhanVien>
+    <NhanVien>
+        <MaNV>NV05</MaNV>
+        <MaCV>CV04</MaCV>
+        <TenNV>Thanh Tú</TenNV>
+        <NgaySinh>08/08/2001</NgaySinh>
+        <GioiTinh>Nam</GioiTinh>
+        <NgayVao>15/03/2022</NgayVao>
+        <DiaChi>Khánh Hòa</DiaChi>
+        <SDT>1270059928</SDT>
+    </NhanVien>
+    <NhanVien>
+        <MaNV>NV06</MaNV>
+        <MaCV>CV05</MaCV>
+        <TenNV>Thành Đạt</TenNV>
+        <NgaySinh>28/10/2001</NgaySinh>
+        <GioiTinh>Nam</GioiTinh>
+        <NgayVao>15/02/2022</NgayVao>
+        <DiaChi>Khánh Hòa</DiaChi>
+        <SDT>1887659928</SDT>
+    </NhanVien>
+    <NhanVien>
+        <MaNV>NV07</MaNV>
+        <MaCV>CV02</MaCV>
+        <TenNV>Thanh Ngân</TenNV>
+        <NgaySinh>12/04/2001</NgaySinh>
+        <GioiTinh>Nữ</GioiTinh>
+        <NgayVao>22/01/2022</NgayVao>
+        <DiaChi>Khánh Hòa</DiaChi>
+        <SDT>1296232358</SDT>
+    </NhanVien>
+    <NhanVien>
+        <MaNV>NV08</MaNV>
+        <MaCV>CV05</MaCV>
+        <TenNV>Văn Thuận</TenNV>
+        <NgaySinh>21/12/2001</NgaySinh>
+        <GioiTinh>Nam</GioiTinh>
+        <NgayVao>15/03/2022</NgayVao>
+        <DiaChi>Khánh Hòa</DiaChi>
+        <SDT>1886239328</SDT>
+    </NhanVien>
+    <NhanVien>
+        <MaNV>NV09</MaNV>
+        <MaCV>CV03</MaCV>
+        <TenNV>Ngọc Hương</TenNV>
+        <NgaySinh>01/02/2001</NgaySinh>
+        <GioiTinh>Nữ</GioiTinh>
+        <NgayVao>08/03/2022</NgayVao>
+        <DiaChi>Ninh Hòa</DiaChi>
+        <SDT>1227125628</SDT>
+    </NhanVien>
+    <NhanVien>
+        <MaNV>NV10</MaNV>
+        <MaCV>CV03</MaCV>
+        <TenNV>Anh Hào</TenNV>
+        <NgaySinh>08/03/2001</NgaySinh>
+        <GioiTinh>Nam</GioiTinh>
+        <NgayVao>12/03/2022</NgayVao>
+        <DiaChi>Ninh Hòa</DiaChi>
+        <SDT>1227512628</SDT>
+    </NhanVien>
+    <Ban>
+        <MaBan>B001</MaBan>
+        <TenBan>Bàn 1</TenBan>
+    </Ban>
+    <Ban>
+        <MaBan>B002</MaBan>
+        <TenBan>Bàn 2</TenBan>
+    </Ban>
+    <Ban>
+        <MaBan>B003</MaBan>
+        <TenBan>Bàn 3</TenBan>
+    </Ban>
+    <Ban>
+        <MaBan>B004</MaBan>
+        <TenBan>Bàn 4</TenBan>
+    </Ban>
+    <Ban>
+        <MaBan>B005</MaBan>
+        <TenBan>Bàn 5</TenBan>
+    </Ban>
+    <Ban>
+        <MaBan>B006</MaBan>
+        <TenBan>Bàn 6</TenBan>
+    </Ban>
+    <Ban>
+        <MaBan>B007</MaBan>
+        <TenBan>Bàn 7</TenBan>
+    </Ban>
+    <Ban>
+        <MaBan>B008</MaBan>
+        <TenBan>Bàn 8</TenBan>
+    </Ban>
+    <Ban>
+        <MaBan>B009</MaBan>
+        <TenBan>Bàn 9</TenBan>
+    </Ban>
+    <Ban>
+        <MaBan>B010</MaBan>
+        <TenBan>Bàn 10</TenBan>
+    </Ban>
+    <LoaiThucUong>
+        <MaLoai>L01</MaLoai>
+        <TenLoai>Thức uống lạnh</TenLoai>
+    </LoaiThucUong>
+    <LoaiThucUong>
+        <MaLoai>L02</MaLoai>
+        <TenLoai>Thức uống nóng</TenLoai>
+    </LoaiThucUong>
+    <LoaiThucUong>
+        <MaLoai>L03</MaLoai>
+        <TenLoai>Thức uống có sẵn</TenLoai>
+    </LoaiThucUong>
+    <ThucUong>
+        <MaTU>TU001</MaTU>
+        <MaLoai>L01</MaLoai>
+        <TenTU>Cà phê sữa đá</TenTU>
+        <Gia>15000</Gia>
+        <DonViTinh>VNĐ</DonViTinh>
+    </ThucUong>
+    <ThucUong>
+        <MaTU>TU002</MaTU>
+        <MaLoai>L01</MaLoai>
+        <TenTU>Cà phê đá</TenTU>
+        <Gia>13000</Gia>
+        <DonViTinh>VNĐ</DonViTinh>
+    </ThucUong>
+    <ThucUong>
+        <MaTU>TU003</MaTU>
+        <MaLoai>L01</MaLoai>
+        <TenTU>Americano đá</TenTU>
+        <Gia>30000</Gia>
+        <DonViTinh>VNĐ</DonViTinh>
+    </ThucUong>
+    <ThucUong>
+        <MaTU>TU004</MaTU>
+        <MaLoai>L02</MaLoai>
+        <TenTU>Sữa nóng</TenTU>
+        <Gia>20000</Gia>
+        <DonViTinh>VNĐ</DonViTinh>
+    </ThucUong>
+    <ThucUong>
+        <MaTU>TU005</MaTU>
+        <MaLoai>L02</MaLoai>
+        <TenTU>Trà Olong nóng</TenTU>
+        <Gia>20000</Gia>
+        <DonViTinh>VNĐ</DonViTinh>
+    </ThucUong>
+    <ThucUong>
+        <MaTU>TU006</MaTU>
+        <MaLoai>L03</MaLoai>
+        <TenTU>Number1</TenTU>
+        <Gia>15000</Gia>
+        <DonViTinh>VNĐ</DonViTinh>
+    </ThucUong>
+    <ThucUong>
+        <MaTU>TU007</MaTU>
+        <MaLoai>L03</MaLoai>
+        <TenTU>Sting</TenTU>
+        <Gia>15000</Gia>
+        <DonViTinh>VNĐ</DonViTinh>
+    </ThucUong>
+    <ThucUong>
+        <MaTU>TU008</MaTU>
+        <MaLoai>L03</MaLoai>
+        <TenTU>Bò húc</TenTU>
+        <Gia>20000</Gia>
+        <DonViTinh>VNĐ</DonViTinh>
+    </ThucUong>
+    <ThucUong>
+        <MaTU>TU009</MaTU>
+        <MaLoai>L01</MaLoai>
+        <TenTU>Bạc xĩu</TenTU>
+        <Gia>20000</Gia>
+        <DonViTinh>VNĐ</DonViTinh>
+    </ThucUong>
+    <ThucUong>
+        <MaTU>TU010</MaTU>
+        <MaLoai>L01</MaLoai>
+        <TenTU>Cam ép</TenTU>
+        <Gia>15000</Gia>
+        <DonViTinh>VNĐ</DonViTinh>
+    </ThucUong>
+    <NhaCungCap>
+        <MaNCC>NCC01</MaNCC>
+        <TenNCC>Trung Nguyên</TenNCC>
+        <DiaChi>82-84 Bùi Thị Xuân, P. Bến Thành, Q.1, Tp Hồ Chí Minh</DiaChi>
+        <SDT> 39251851</SDT>
+        <EmailNCC>cs@trungnguyenlegend.com</EmailNCC>
+    </NhaCungCap>
+    <NhaCungCap>
+        <MaNCC>NCC02</MaNCC>
+        <TenNCC>Mê Trang</TenNCC>
+        <DiaChi>66 đường 2/4 phường Vĩnh Hải, Tp.Nha Trang, tỉnh Khánh Hòa.</DiaChi>
+        <SDT>1900 2070</SDT>
+        <EmailNCC>tpmarketing@metrang.com.vn</EmailNCC>
+    </NhaCungCap>
+    <NhaCungCap>
+        <MaNCC>NCC03</MaNCC>
+        <TenNCC>PepsiCo</TenNCC>
+        <DiaChi>19 Nguyễn Trãi, Q.Thủ Đức, Tp Hồ Chí Minh</DiaChi>
+        <SDT>1900 2070</SDT>
+        <EmailNCC>PSC@pepsico.com.vn</EmailNCC>
+    </NhaCungCap>
+    <NhaCungCap>
+        <MaNCC>NCC04</MaNCC>
+        <TenNCC>TNHH Bình Minhn</TenNCC>
+        <DiaChi>09 Nguyễn Công Trứ, Q.2, Tp Hồ Chí Minh</DiaChi>
+        <SDT> 39251851</SDT>
+        <EmailNCC>tnhh_bm@binhminh.com</EmailNCC>
+    </NhaCungCap>
+    <NguyenLieu>
+        <MaNL>NL01</MaNL>
+        <MaNCC>NCC01</MaNCC>
+        <TenNL>Hạt Cà phê</TenNL>
+        <SoLuong>10</SoLuong>
+        <DonVi>kg</DonVi>
+        <Gia>150000</Gia>
+    </NguyenLieu>
+    <NguyenLieu>
+        <MaNL>NL02</MaNL>
+        <MaNCC>NCC04</MaNCC>
+        <TenNL>Đường</TenNL>
+        <SoLuong>20</SoLuong>
+        <DonVi>kg</DonVi>
+        <Gia>8000</Gia>
+    </NguyenLieu>
+    <NguyenLieu>
+        <MaNL>NL03</MaNL>
+        <MaNCC>NCC02</MaNCC>
+        <TenNL>Sữa</TenNL>
+        <SoLuong>20</SoLuong>
+        <DonVi>Lon</DonVi>
+        <Gia>25000</Gia>
+    </NguyenLieu>
+    <NguyenLieu>
+        <MaNL>NL04</MaNL>
+        <MaNCC>NCC04</MaNCC>
+        <TenNL>Đá</TenNL>
+        <SoLuong>10</SoLuong>
+        <DonVi>kg</DonVi>
+        <Gia>5000</Gia>
+    </NguyenLieu>
+    <NguyenLieu>
+        <MaNL>NL05</MaNL>
+        <MaNCC>NCC03</MaNCC>
+        <TenNL>Trà</TenNL>
+        <SoLuong>15</SoLuong>
+        <DonVi>Gói</DonVi>
+        <Gia>14000</Gia>
+    </NguyenLieu>
+    <CongThuc>
+        <MaTU>TU001</MaTU>
+        <MaNL>NL01</MaNL>
+        <SOLUONG>2</SOLUONG>
+    </CongThuc>
+    <CongThuc>
+        <MaTU>TU002</MaTU>
+        <MaNL>NL02</MaNL>
+        <SOLUONG>5</SOLUONG>
+    </CongThuc>
+    <CongThuc>
+        <MaTU>TU003</MaTU>
+        <MaNL>NL03</MaNL>
+        <SOLUONG>6</SOLUONG>
+    </CongThuc>
+    <CongThuc>
+        <MaTU>TU004</MaTU>
+        <MaNL>NL04</MaNL>
+        <SOLUONG>2</SOLUONG>
+    </CongThuc>
+    <CongThuc>
+        <MaTU>TU005</MaTU>
+        <MaNL>NL05</MaNL>
+        <SOLUONG>1</SOLUONG>
+    </CongThuc>
+    <HoaDon>
+        <MaHD>HD001</MaHD>
+        <MaBan>B001</MaBan>
+        <MaNV>NV01</MaNV>
+        <NgayLap>05/05/2021</NgayLap>
+    </HoaDon>
+    <HoaDon>
+        <MaHD>HD002</MaHD>
+        <MaBan>B004</MaBan>
+        <MaNV>NV02</MaNV>
+        <NgayLap>10/05/2021</NgayLap>
+    </HoaDon>
+    <HoaDon>
+        <MaHD>HD003</MaHD>
+        <MaBan>B002</MaBan>
+        <MaNV>NV01</MaNV>
+        <NgayLap>10/06/2021</NgayLap>
+    </HoaDon>
+    <HoaDon>
+        <MaHD>HD004</MaHD>
+        <MaBan>B003</MaBan>
+        <MaNV>NV02</MaNV>
+        <NgayLap>22/06/2021</NgayLap>
+    </HoaDon>
+    <HoaDon>
+        <MaHD>HD005</MaHD>
+        <MaBan>B005</MaBan>
+        <MaNV>NV02</MaNV>
+        <NgayLap>25/07/2021</NgayLap>
+    </HoaDon>
+    <HoaDon>
+        <MaHD>HD006</MaHD>
+        <MaBan>B010</MaBan>
+        <MaNV>NV02</MaNV>
+        <NgayLap>05/07/2021</NgayLap>
+    </HoaDon>
+    <HoaDon>
+        <MaHD>HD007</MaHD>
+        <MaBan>B007</MaBan>
+        <MaNV>NV01</MaNV>
+        <NgayLap>11/07/2021</NgayLap>
+    </HoaDon>
+    <HoaDon>
+        <MaHD>HD008</MaHD>
+        <MaBan>B006</MaBan>
+        <MaNV>NV01</MaNV>
+        <NgayLap>04/08/2021</NgayLap>
+    </HoaDon>
+    <HoaDon>
+        <MaHD>HD009</MaHD>
+        <MaBan>B009</MaBan>
+        <MaNV>NV03</MaNV>
+        <NgayLap>12/08/2021</NgayLap>
+    </HoaDon>
+    <HoaDon>
+        <MaHD>HD010</MaHD>
+        <MaBan>B007</MaBan>
+        <MaNV>NV03</MaNV>
+        <NgayLap>15/08/2021</NgayLap>
+    </HoaDon>
+    <CT_HoaDon>
+        <MaHD>HD001</MaHD>
+        <MaTU>TU001</MaTU>
+        <SOLUONG>2</SOLUONG>
+    </CT_HoaDon>
+    <CT_HoaDon>
+        <MaHD>HD002</MaHD>
+        <MaTU>TU005</MaTU>
+        <SOLUONG>1</SOLUONG>
+    </CT_HoaDon>
+    <CT_HoaDon>
+        <MaHD>HD003</MaHD>
+        <MaTU>TU002</MaTU>
+        <SOLUONG>4</SOLUONG>
+    </CT_HoaDon>
+    <CT_HoaDon>
+        <MaHD>HD004</MaHD>
+        <MaTU>TU003</MaTU>
+        <SOLUONG>1</SOLUONG>
+    </CT_HoaDon>
+    <CT_HoaDon>
+        <MaHD>HD005</MaHD>
+        <MaTU>TU001</MaTU>
+        <SOLUONG>3</SOLUONG>
+    </CT_HoaDon>
+    <CT_HoaDon>
+        <MaHD>HD006</MaHD>
+        <MaTU>TU002</MaTU>
+        <SOLUONG>2</SOLUONG>
+    </CT_HoaDon>
+    <CT_HoaDon>
+        <MaHD>HD007</MaHD>
+        <MaTU>TU001</MaTU>
+        <SOLUONG>1</SOLUONG>
+    </CT_HoaDon>
+    <CT_HoaDon>
+        <MaHD>HD008</MaHD>
+        <MaTU>TU003</MaTU>
+        <SOLUONG>2</SOLUONG>
+    </CT_HoaDon>
+    <CT_HoaDon>
+        <MaHD>HD009</MaHD>
+        <MaTU>TU002</MaTU>
+        <SOLUONG>1</SOLUONG>
+    </CT_HoaDon>
+    <CT_HoaDon>
+        <MaHD>HD010</MaHD>
+        <MaTU>TU004</MaTU>
+        <SOLUONG>2</SOLUONG>
+    </CT_HoaDon>
+    <PhieuNhap>
+        <MaPN>PN01</MaPN>
+        <NgayNhapHang>20/11/2021</NgayNhapHang>
+        <MaNV>NV03</MaNV>
+    </PhieuNhap>
+    <PhieuNhap>
+        <MaPN>PN02</MaPN>
+        <NgayNhapHang>03/10/2021</NgayNhapHang>
+        <MaNV>NV06</MaNV>
+    </PhieuNhap>
+    <PhieuNhap>
+        <MaPN>PN03</MaPN>
+        <NgayNhapHang>20/10/2021</NgayNhapHang>
+        <MaNV>NV02</MaNV>
+    </PhieuNhap>
+    <PhieuNhap>
+        <MaPN>PN04</MaPN>
+        <NgayNhapHang>19/12/2021</NgayNhapHang>
+        <MaNV>NV03</MaNV>
+    </PhieuNhap>
+    <PhieuNhap>
+        <MaPN>PN05</MaPN>
+        <NgayNhapHang>10/01/2022</NgayNhapHang>
+        <MaNV>NV06</MaNV>
+    </PhieuNhap>
+    <PhieuNhap>
+        <MaPN>PN06</MaPN>
+        <NgayNhapHang>20/01/2022</NgayNhapHang>
+        <MaNV>NV06</MaNV>
+    </PhieuNhap>
+    <PhieuNhap>
+        <MaPN>PN07</MaPN>
+        <NgayNhapHang>15/11/2021</NgayNhapHang>
+        <MaNV>NV02</MaNV>
+    </PhieuNhap>
+    <PhieuNhap>
+        <MaPN>PN08</MaPN>
+        <NgayNhapHang>17/12/2021</NgayNhapHang>
+        <MaNV>NV03</MaNV>
+    </PhieuNhap>
+    <CT_PhieuNhap>
+        <MaPN>PN01</MaPN>
+        <MaNL>NL02</MaNL>
+        <SoLuongNL>10</SoLuongNL>
+    </CT_PhieuNhap>
+    <CT_PhieuNhap>
+        <MaPN>PN02</MaPN>
+        <MaNL>NL01</MaNL>
+        <SoLuongNL>10</SoLuongNL>
+    </CT_PhieuNhap>
+    <CT_PhieuNhap>
+        <MaPN>PN03</MaPN>
+        <MaNL>NL03</MaNL>
+        <SoLuongNL>5</SoLuongNL>
+    </CT_PhieuNhap>
+    <CT_PhieuNhap>
+        <MaPN>PN04</MaPN>
+        <MaNL>NL05</MaNL>
+        <SoLuongNL>7</SoLuongNL>
+    </CT_PhieuNhap>
+    <CT_PhieuNhap>
+        <MaPN>PN05</MaPN>
+        <MaNL>NL04</MaNL>
+        <SoLuongNL>5</SoLuongNL>
+    </CT_PhieuNhap>
+    <CT_PhieuNhap>
+        <MaPN>PN06</MaPN>
+        <MaNL>NL02</MaNL>
+        <SoLuongNL>10</SoLuongNL>
+    </CT_PhieuNhap>
+    <CT_PhieuNhap>
+        <MaPN>PN07</MaPN>
+        <MaNL>NL01</MaNL>
+        <SoLuongNL>10</SoLuongNL>
+    </CT_PhieuNhap>
+    <CT_PhieuNhap>
+        <MaPN>PN08</MaPN>
+        <MaNL>NL03</MaNL>
+        <SoLuongNL>5</SoLuongNL>
+    </CT_PhieuNhap>
+</QLQuancafe3k>

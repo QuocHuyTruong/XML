@@ -1,0 +1,9 @@
+D:\XML\QLquancfk3\QLquancfk3\bin\Debug\QLquancfk3.exe.config
+D:\XML\QLquancfk3\QLquancfk3\bin\Debug\QLquancfk3.exe
+D:\XML\QLquancfk3\QLquancfk3\bin\Debug\QLquancfk3.pdb
+D:\XML\QLquancfk3\QLquancfk3\obj\Debug\QLquancfk3.Form1.resources
+D:\XML\QLquancfk3\QLquancfk3\obj\Debug\QLquancfk3.Properties.Resources.resources
+D:\XML\QLquancfk3\QLquancfk3\obj\Debug\QLquancfk3.csproj.GenerateResource.Cache
+D:\XML\QLquancfk3\QLquancfk3\obj\Debug\QLquancfk3.exe
+D:\XML\QLquancfk3\QLquancfk3\obj\Debug\QLquancfk3.pdb
+D:\XML\QLquancfk3\QLquancfk3\obj\Debug\QLquancfk3.csprojResolveAssemblyReference.cache

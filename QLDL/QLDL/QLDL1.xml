@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="QLDL.xsl"?>
+<QLDL xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="QLDL.xsd">
+    <DSTour>
+        <MaTour>HL01</MaTour>
+        <TenTour>Tham quan vịnh Hạ Long</TenTour>
+        <Gia>2500000</Gia>
+        <GhiChu>Thời gian: 3 ngày, 2 đêm</GhiChu>
+    </DSTour>
+    <DSTour>
+        <MaTour>PT01</MaTour>
+        <TenTour>Tham quan Mũi Né</TenTour>
+        <Gia>1500000</Gia>
+        <GhiChu>Thời gian: 2 ngày, 2 đêm</GhiChu>
+    </DSTour>
+    <DSTour>
+        <MaTour>NT01</MaTour>
+        <TenTour>Tham quan Nha Trang</TenTour>
+        <Gia>1000000</Gia>
+        <GhiChu>Thời gian: 3 ngày, 2 đêm</GhiChu>
+    </DSTour>
+    <DSTour>
+        <MaTour>CR01</MaTour>
+        <TenTour>Tham quan Cam Ranh</TenTour>
+        <Gia>500000</Gia>
+        <GhiChu>Thời gian: 2 ngày, 1 đêm</GhiChu>
+    </DSTour>
+    <DSTour>
+        <MaTour>HL02</MaTour>
+        <TenTour>Tham quan vịnh Hạ Long</TenTour>
+        <Gia>3500000</Gia>
+        <GhiChu>Thời gian: 5 ngày, 4 đêm</GhiChu>
+    </DSTour>
+    <ToChucTour>
+        <MaChuyenDi>12030701</MaChuyenDi>
+        <MaTour>HL01</MaTour>
+        <NgayKH>2019-03-12</NgayKH>
+        <NgayKT>2019-03-15</NgayKT>
+    </ToChucTour>
+    <ToChucTour>
+        <MaChuyenDi>19030701</MaChuyenDi>
+        <MaTour>PT01</MaTour>
+        <NgayKH>2020-03-19</NgayKH>
+        <NgayKT>2020-03-21</NgayKT>
+    </ToChucTour>
+    <ToChucTour>
+        <MaChuyenDi>19030805</MaChuyenDi>
+        <MaTour>NT01</MaTour>
+        <NgayKH>2020-05-19</NgayKH>
+        <NgayKT>2020-05-22</NgayKT>
+    </ToChucTour>
+    <ToChucTour>
+        <MaChuyenDi>19040501</MaChuyenDi>
+        <MaTour>CR01</MaTour>
+        <NgayKH>2020-03-19</NgayKH>
+        <NgayKT>2020-03-21</NgayKT>
+    </ToChucTour>
+    <ToChucTour>
+        <MaChuyenDi>12030802</MaChuyenDi>
+        <MaTour>HL02</MaTour>
+        <NgayKH>2020-03-19</NgayKH>
+        <NgayKT>2020-03-24</NgayKT>
+    </ToChucTour>
+    
+    <DangKyTour>
+        <MaPhieuDK>08030701</MaPhieuDK>
+        <MaChuyenDi>12030701</MaChuyenDi>
+        <NgayDK>2007-03-08</NgayDK>
+        <TongSoTien>5000000</TongSoTien>
+        <TienDatCoc>1000000</TienDatCoc>
+        <TinhTrang>tốt</TinhTrang>
+        <SoDTLL>0905 111 222</SoDTLL>
+    </DangKyTour>
+    <DangKyTour>
+        <MaPhieuDK>10030701</MaPhieuDK>
+        <MaChuyenDi>19030701</MaChuyenDi>
+        <NgayDK>2007-03-10</NgayDK>
+        <TongSoTien>1500000</TongSoTien>
+        <TienDatCoc>1500000</TienDatCoc>
+        <TinhTrang>tốt</TinhTrang>
+        <SoDTLL>0982 666 888</SoDTLL>
+    </DangKyTour>
+    <DangKyTour>
+        <MaPhieuDK>10300808</MaPhieuDK>
+        <MaChuyenDi>19030805</MaChuyenDi>
+        <NgayDK>2018-01-05</NgayDK>
+        <TongSoTien>3000000</TongSoTien>
+        <TienDatCoc>1500000</TienDatCoc>
+        <TinhTrang>tốt</TinhTrang>
+        <SoDTLL>0982 666 666</SoDTLL>
+    </DangKyTour>
+    <DangKyTour>
+        <MaPhieuDK>10030602</MaPhieuDK>
+        <MaChuyenDi>19040501</MaChuyenDi>
+        <NgayDK>2018-03-22</NgayDK>
+        <TongSoTien>2000000</TongSoTien>
+        <TienDatCoc>1000000</TienDatCoc>
+        <TinhTrang>hủy</TinhTrang>
+        <SoDTLL>0982 666 323</SoDTLL>
+    </DangKyTour>
+    <DangKyTour>
+        <MaPhieuDK>10030103</MaPhieuDK>
+        <MaChuyenDi>12030802</MaChuyenDi>
+        <NgayDK>2019-05-14</NgayDK>
+        <TongSoTien>4000000</TongSoTien>
+        <TienDatCoc>2000000</TienDatCoc>
+        <TinhTrang>tốt</TinhTrang>
+        <SoDTLL>0982 666 123</SoDTLL>
+    </DangKyTour>
+    
+    <CTPhieuDangKy>
+        <MaPhieuDK>08030701</MaPhieuDK>
+        <SoTT>1</SoTT>
+        <HoTenKH>Nguyễn Văn Tâm</HoTenKH>
+        <NamSinh>1990</NamSinh>
+    </CTPhieuDangKy>
+    <CTPhieuDangKy>
+        <MaPhieuDK>10030701</MaPhieuDK>
+        <SoTT>2</SoTT>
+        <HoTenKH>Trần Văn Long</HoTenKH>
+        <NamSinh>1995</NamSinh>
+    </CTPhieuDangKy>
+    <CTPhieuDangKy>
+        <MaPhieuDK>10300808</MaPhieuDK>
+        <SoTT>3</SoTT>
+        <HoTenKH>Nguyễn Nam Dương</HoTenKH>
+        <NamSinh>1999</NamSinh>
+    </CTPhieuDangKy>
+    <CTPhieuDangKy>
+        <MaPhieuDK>10030602</MaPhieuDK>
+        <SoTT>4</SoTT>
+        <HoTenKH>Nguyễn Trường Giang</HoTenKH>
+        <NamSinh>1997</NamSinh>
+    </CTPhieuDangKy>
+    <CTPhieuDangKy>
+        <MaPhieuDK>10030103</MaPhieuDK>
+        <SoTT>5</SoTT>
+        <HoTenKH>Trần Đức Thắng</HoTenKH>
+        <NamSinh>1994</NamSinh>
+    </CTPhieuDangKy>
+</QLDL>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <xs:element name="QLNH">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="NhanVien" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="MaNV">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="NV[0-9]{2}"></xs:pattern>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="HoLot" type="xs:string"/>
+                            <xs:element name="Ten" type="xs:string" />
+                            <xs:element name="GioiTinh">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="Nam|Nu"></xs:pattern>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="HangHoa" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="MaHH">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="H[0-9]{3}"></xs:pattern>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="TenHH" type="xs:string"/>
+                            <xs:element name="DonViTinh" type="xs:string"/>
+                            <xs:element name="TenNCC" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="HoaDonNhap" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="SoHD">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="HD[0-9]{4}"></xs:pattern>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="NgayNhap" type="xs:string"/>
+                            <xs:element name="MaNV" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="ChiTietNhap" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="SoHD" type="xs:string"/>
+                            <xs:element name="MaHH" type="xs:string"/>
+                            <xs:element name="SoLuong" type="xs:int"/>
+                            <xs:element name="DonGiaNhap">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:float">
+                                        <xs:minInclusive value="0"></xs:minInclusive>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:key name="NhanVienKey">
+            <xs:selector xpath="NhanVien"/>
+            <xs:field xpath="MaNV"/>
+        </xs:key>
+        <xs:key name="HangHoaKey">
+            <xs:selector xpath="HangHoa"/>
+            <xs:field xpath="MaHH"/>
+        </xs:key>
+        <xs:key name="HoaDonNhapKey">
+            <xs:selector xpath="HoaDonNhap"/>
+            <xs:field xpath="SoHD"/>
+        </xs:key>
+        <xs:keyref name="NhanVien_HoaDonNhapKeyref" refer="NhanVienKey">
+            <xs:selector xpath="HoaDonNhap"/>
+            <xs:field xpath="MaNV"/>
+        </xs:keyref>
+        <xs:keyref name="HangHoa_ChiTietNhapKeyref" refer="HangHoaKey">
+            <xs:selector xpath="ChiTietNhap"/>
+            <xs:field xpath="MaHH"/>
+        </xs:keyref>
+        <xs:keyref name="HoaDonNhap_ChiTietNhapKeyref" refer="HoaDonNhapKey">
+            <xs:selector xpath="ChiTietNhap"/>
+            <xs:field xpath="SoHD"/>
+        </xs:keyref>
+    </xs:element>
+</xs:schema>

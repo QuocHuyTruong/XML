@@ -1,0 +1,9 @@
+D:\Code\XML\XMLQuanLySach\XMLQuanLySach\bin\Debug\XMLQuanLySach.exe.config
+D:\Code\XML\XMLQuanLySach\XMLQuanLySach\bin\Debug\XMLQuanLySach.exe
+D:\Code\XML\XMLQuanLySach\XMLQuanLySach\bin\Debug\XMLQuanLySach.pdb
+D:\Code\XML\XMLQuanLySach\XMLQuanLySach\obj\Debug\XMLQuanLySach.csprojResolveAssemblyReference.cache
+D:\Code\XML\XMLQuanLySach\XMLQuanLySach\obj\Debug\XMLQuanLySach.Form1.resources
+D:\Code\XML\XMLQuanLySach\XMLQuanLySach\obj\Debug\XMLQuanLySach.Properties.Resources.resources
+D:\Code\XML\XMLQuanLySach\XMLQuanLySach\obj\Debug\XMLQuanLySach.csproj.GenerateResource.Cache
+D:\Code\XML\XMLQuanLySach\XMLQuanLySach\obj\Debug\XMLQuanLySach.exe
+D:\Code\XML\XMLQuanLySach\XMLQuanLySach\obj\Debug\XMLQuanLySach.pdb

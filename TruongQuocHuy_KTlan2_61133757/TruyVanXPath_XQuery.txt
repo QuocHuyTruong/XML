@@ -1,0 +1,28 @@
+a)	Liệt kê thông tin Chi tiết nhập (SoHD, MaHH, SoLuong, DonGiaNhap) có số hóa đơn là HD0002.
+--XPath--
+//ChiTietNhap[SoHD="HD0002"]
+
+--XQuery--
+for $item in doc("QLNH.xml")/QLNH/ChiTietNhap
+where ($item/SoHD = "HD0002")
+    return $item
+
+b)	Tính số lần nhập hàng trong năm 2020.
+--XPath--
+count(//HoaDonNhap[contains(NgayNhap,"2020")])
+
+--XQuery--
+for $x at $i in doc ("QLNH.xml")/QLNH/HoaDonNhap
+where $x[contains(NgayNhap,"2020")]
+    return $i
+
+c)	Liệt kê thông tin của các nhân viên (MaNV, HoLot, Ten, GioiTinh) có nhập hàng trong năm 2020.
+--XPath--
+//NhanVien[MaNV = //HoaDonNhap[contains(NgayNhap,"2020")]/MaNV]
+
+--XQuery--
+for $item in doc("QLNH.xml")/QLNH/NhanVien
+for $item2 in doc("QLNH.xml")/QLNH/HoaDonNhap
+where($item2[contains(NgayNhap,"2020")])
+where($item[contains(MaNV,$item2/MaNV)])
+    return $item
