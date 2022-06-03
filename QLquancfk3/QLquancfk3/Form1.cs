@@ -226,5 +226,15 @@ namespace QLquancfk3
             }
         }
 
+        private void button15_Click(object sender, EventArgs e)
+        {
+            if (textBoxmatu.Text.Trim() != "")
+            {
+                thucuongdto.MaTU = textBoxmatu.Text;
+
+                thucuongbll.TimKiem(thucuongdto, dataGridViewThucUong);
+            }
+        }
+
     }
 }
