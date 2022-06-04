@@ -368,6 +368,111 @@ namespace QLquancfk3
             }
         }
 
+        private void dataGridViewChucVu_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DataGridViewRow row = new DataGridViewRow();
+            if (e.RowIndex != -1)
+            {
+                row = dataGridViewChucVu.Rows[e.RowIndex];
+            }
+            else
+            {
+                row = dataGridViewChucVu.Rows[0];
+            }
+
+            textmacv.Text = Convert.ToString(row.Cells["Column1"].Value);
+            texttencv.Text = Convert.ToString(row.Cells["Column2"].Value);
+            textsoluong.Text = Convert.ToString(row.Cells["Column3"].Value);
+        }
+
+        private void dataGridViewNhanVien_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DataGridViewRow row = new DataGridViewRow();
+            if (e.RowIndex != -1)
+            {
+                row = dataGridViewNhanVien.Rows[e.RowIndex];
+            }
+            else
+            {
+                row = dataGridViewNhanVien.Rows[0];
+            }
+
+            textBoxmanv.Text = Convert.ToString(row.Cells["MaNV"].Value);
+            comboBoxmacv.Text = Convert.ToString(row.Cells["MaCV"].Value);
+            textBoxtennv.Text = Convert.ToString(row.Cells["TenNV"].Value);
+            textBoxngaysinh.Text = Convert.ToString(row.Cells["Column4"].Value);
+            if (Convert.ToString(row.Cells["Column5"].Value) == "Nam")
+            {
+                radioButtonnam.Checked = true;
+            }
+            else
+            {
+                radioButtonnu.Checked = true;
+            }
+            textBoxngayvao.Text = Convert.ToString(row.Cells["Column6"].Value);
+            textBoxdiachi.Text = Convert.ToString(row.Cells["Column7"].Value);
+            textBoxsdt.Text = Convert.ToString(row.Cells["Column8"].Value);
+        }
+
+        private void dataGridViewThucUong_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DataGridViewRow row = new DataGridViewRow();
+            if (e.RowIndex != -1)
+            {
+                row = dataGridViewThucUong.Rows[e.RowIndex];
+            }
+            else
+            {
+                row = dataGridViewThucUong.Rows[0];
+            }
+
+            textBoxmatu.Text = Convert.ToString(row.Cells["Column9"].Value);
+            comboBoxmaloai.Text = Convert.ToString(row.Cells["Column10"].Value);
+            textBoxtentu.Text = Convert.ToString(row.Cells["Column11"].Value);
+            textBoxgia.Text = Convert.ToString(row.Cells["Column12"].Value);
+            textBoxdonvitinh.Text = Convert.ToString(row.Cells["Column13"].Value);
+        }
+
+        private void dataGridViewNhaCungCap_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DataGridViewRow row = new DataGridViewRow();
+            if (e.RowIndex != -1)
+            {
+                row = dataGridViewNhaCungCap.Rows[e.RowIndex];
+            }
+            else
+            {
+                row = dataGridViewNhaCungCap.Rows[0];
+            }
+
+            textBoxmancc.Text = Convert.ToString(row.Cells["MaNCC"].Value);
+            textBoxtenncc.Text = Convert.ToString(row.Cells["TenNCC"].Value);
+            textBoxdiachincc.Text = Convert.ToString(row.Cells["DiaChi"].Value);
+            textBoxsdtncc.Text = Convert.ToString(row.Cells["SDT"].Value);
+            textBoxemailncc.Text = Convert.ToString(row.Cells["Email"].Value);
+        }
+
+        private void dataGridViewNguyenLieu_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DataGridViewRow row = new DataGridViewRow();
+            if (e.RowIndex != -1)
+            {
+                row = dataGridViewNguyenLieu.Rows[e.RowIndex];
+            }
+            else
+            {
+                row = dataGridViewNguyenLieu.Rows[0];
+            }
+
+            textBoxmanl.Text = Convert.ToString(row.Cells["MaNL"].Value);
+            comboBoxmancc.Text = Convert.ToString(row.Cells["MaNCCNL"].Value);
+            textBoxtennl.Text = Convert.ToString(row.Cells["TenNL"].Value);
+            textBoxslnl.Text = Convert.ToString(row.Cells["SoLuong"].Value);
+            textBoxdonvinl.Text = Convert.ToString(row.Cells["DonVi"].Value);
+            textBoxgianl.Text = Convert.ToString(row.Cells["Gia"].Value);
+        }
+
+
 
     }
 }
