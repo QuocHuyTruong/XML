@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace QLquancfk3.BLL
 {
-    class NhanVienBLL
+    public class NhanVienBLL
     {
         private XmlDocument doc = new XmlDocument();
         private XmlElement root;

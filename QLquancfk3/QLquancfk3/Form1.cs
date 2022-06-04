@@ -29,6 +29,8 @@ namespace QLquancfk3
         NhanVienDTO nhanviendto = new NhanVienDTO();
         ThucUongBLL thucuongbll = new ThucUongBLL();
         ThucUongDTO thucuongdto = new ThucUongDTO();
+        NhaCungCapBLL nhaccbll = new NhaCungCapBLL();
+        NhaCungCapDTO nhaccdto = new NhaCungCapDTO();
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -235,6 +237,70 @@ namespace QLquancfk3
                 thucuongbll.TimKiem(thucuongdto, dataGridViewThucUong);
             }
         }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            nhaccbll.HienThi(dataGridViewNhaCungCap);
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            if (textBoxmancc.Text.Trim() != "")
+            {
+                nhaccdto.MaNCC = textBoxmancc.Text;
+                nhaccdto.TenNCC = textBoxtenncc.Text;
+                nhaccdto.DiaChi = textBoxdiachincc.Text;
+                nhaccdto.SDT = int.Parse(textBoxsdtncc.Text);
+                nhaccdto.Email = textBoxemailncc.Text;
+
+                nhaccbll.Them(nhaccdto);
+                nhaccbll.HienThi(dataGridViewNhaCungCap);
+            }
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            if (textBoxmancc.Text.Trim() != "")
+            {
+                nhaccdto.MaNCC = textBoxmancc.Text;
+                nhaccdto.TenNCC = textBoxtenncc.Text;
+                nhaccdto.DiaChi = textBoxdiachincc.Text;
+
+                if (textBoxsdtncc.Text.Trim() == "")
+                {
+                    nhaccdto.SDT = -1;
+                }
+                else
+                {
+                    nhaccdto.SDT = int.Parse(textBoxsdtncc.Text);
+                }
+                nhaccdto.Email = textBoxemailncc.Text;
+                nhaccbll.Sua(nhaccdto);
+                nhaccbll.HienThi(dataGridViewNhaCungCap);
+            }
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            if (textBoxmancc.Text.Trim() != "")
+            {
+                nhaccdto.MaNCC = textBoxmancc.Text;
+
+                nhaccbll.Xoa(nhaccdto);
+                nhaccbll.HienThi(dataGridViewNhaCungCap);
+            }
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            if (textBoxmancc.Text.Trim() != "")
+            {
+                nhaccdto.MaNCC = textBoxmancc.Text;
+
+                nhaccbll.TimKiem(nhaccdto, dataGridViewNhaCungCap);
+            }
+        }
+
 
     }
 }

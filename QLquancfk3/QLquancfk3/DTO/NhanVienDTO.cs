@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace QLquancfk3.DTO
 {
-    class NhanVienDTO
+    public class NhanVienDTO
     {
         private string manv;
         private string macv;

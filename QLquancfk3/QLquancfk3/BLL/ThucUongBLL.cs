@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace QLquancfk3.BLL
 {
-    class ThucUongBLL
+    public class ThucUongBLL
     {
         private XmlDocument doc = new XmlDocument();
         private XmlElement root;

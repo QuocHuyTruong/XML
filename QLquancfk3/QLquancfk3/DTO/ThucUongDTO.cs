@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace QLquancfk3.DTO
 {
-    class ThucUongDTO
+    public class ThucUongDTO
     {
         private string matu;
         private string maloai;
