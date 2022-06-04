@@ -21,6 +21,8 @@ namespace QLquancfk3
             comboBoxmacv.Items.AddRange(array);
             array = thucuongbll.HienThiMaLoai().ToArray<object>();
             comboBoxmaloai.Items.AddRange(array);
+            array = nguyenlieubll.HienThiMaNCC().ToArray<object>();
+            comboBoxmancc.Items.AddRange(array);
         }
 
         ChucVuBLL chucvubll = new ChucVuBLL();
@@ -31,6 +33,8 @@ namespace QLquancfk3
         ThucUongDTO thucuongdto = new ThucUongDTO();
         NhaCungCapBLL nhaccbll = new NhaCungCapBLL();
         NhaCungCapDTO nhaccdto = new NhaCungCapDTO();
+        NguyenLieuBLL nguyenlieubll = new NguyenLieuBLL();
+        NguyenLieuDTO nguyenlieudto = new NguyenLieuDTO();
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -298,6 +302,69 @@ namespace QLquancfk3
                 nhaccdto.MaNCC = textBoxmancc.Text;
 
                 nhaccbll.TimKiem(nhaccdto, dataGridViewNhaCungCap);
+            }
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            nguyenlieubll.HienThi(dataGridViewNguyenLieu);   
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            if (textBoxmanl.Text.Trim() != "")
+            {
+                nguyenlieudto.MaNL = textBoxmanl.Text;
+                nguyenlieudto.MaNCC = comboBoxmancc.Text;
+                nguyenlieudto.TenNL = textBoxtennl.Text;
+                nguyenlieudto.SoLuong = int.Parse(textBoxslnl.Text);
+                nguyenlieudto.DonVi = textBoxdonvinl.Text;
+                nguyenlieudto.Gia = int.Parse(textBoxgianl.Text);
+
+                nguyenlieubll.Them(nguyenlieudto);
+                nguyenlieubll.HienThi(dataGridViewNguyenLieu);
+            }
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            if (textBoxmanl.Text.Trim() != "")
+            {
+                nguyenlieudto.MaNL = textBoxmanl.Text;
+                nguyenlieudto.MaNCC = comboBoxmancc.Text;
+                nguyenlieudto.TenNL = textBoxtennl.Text;
+
+                if (textBoxslnl.Text.Trim() == "")
+                {
+                    nguyenlieudto.SoLuong = -1;
+                }
+                else
+                {
+                    nguyenlieudto.SoLuong = int.Parse(textBoxslnl.Text);
+                }
+                nguyenlieubll.Sua(nguyenlieudto);
+                nguyenlieubll.HienThi(dataGridViewNguyenLieu);
+            }
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            if (textBoxmanl.Text.Trim() != "")
+            {
+                nguyenlieudto.MaNL = textBoxmanl.Text;
+
+                nguyenlieubll.Xoa(nguyenlieudto);
+                nguyenlieubll.HienThi(dataGridViewNguyenLieu);
+            }
+        }
+
+        private void button25_Click(object sender, EventArgs e)
+        {
+            if (textBoxmanl.Text.Trim() != "")
+            {
+                nguyenlieudto.MaNL = textBoxmanl.Text;
+
+                nguyenlieubll.TimKiem(nguyenlieudto,dataGridViewNguyenLieu);
             }
         }
 

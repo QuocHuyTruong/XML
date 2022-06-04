@@ -45,10 +45,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLL\ChucVuBLL.cs" />
+    <Compile Include="BLL\NguyenLieuBLL.cs" />
     <Compile Include="BLL\NhaCungCapBLL.cs" />
     <Compile Include="BLL\NhanVienBLL.cs" />
     <Compile Include="BLL\ThucUongBLL.cs" />
     <Compile Include="DTO\ChucVuDTO.cs" />
+    <Compile Include="DTO\NguyenLieuDTO.cs" />
     <Compile Include="DTO\NhaCungCapDTO.cs" />
     <Compile Include="DTO\NhanVienDTO.cs" />
     <Compile Include="DTO\ThucUongDTO.cs" />
